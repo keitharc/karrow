@@ -2,8 +2,9 @@
 
 * What I did differently:
   * Three finger arrow keys
-  * traditional shift this forced the ?/ to be moved in a strange location. The V points to it if that helps.
-  * shift ctrl alt cmd/win easy to hit all at once. ctrl + shift(I do that a lot)
+  * The traditional shift forced ?/ to be moved in a strange location. The V points to it if that helps. V also points to f12.
+  * C points to caps lock and comma. cool?
+  * shift ctrl alt cmd/win easy to hit all at once. Had to have ctrl + shift so I removed alt + shift.
   * <-  +> that was unintintional the similes. There's more, it's neat how it all came together. 
   * Calculator layout in code layer(this is why f12 is at bottom)
   * !@#$%^ in code layer, like 123456
