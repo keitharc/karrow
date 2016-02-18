@@ -9,7 +9,7 @@
   * Had to have ctrl shift junction so I removed alt + shift. Useful with arrows and bs.
   * less than & zoom out & -;  greater than & zoom in & +. kinda goes together.
   * !@#$%^ in code layer, like 123456
-  * added characters in all layers(see images below) gota have insert.
+  * added characters in all layers(see images below) 
 
 ![Default](z1base.png)
 ![Default](z2media.png)
