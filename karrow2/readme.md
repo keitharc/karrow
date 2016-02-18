@@ -1,6 +1,6 @@
 # karrow2 configuration
 
-* ##What I did differently:
+* What I did differently:
   * Three finger arrow keys
   * brought back left traditonal control characters
   * The traditional shift forced ?/ to be moved in a strange location. The V points to it if that helps. 
