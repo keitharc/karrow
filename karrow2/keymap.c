@@ -21,12 +21,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *   | CTRL |CMD WD| ALT  |CAP LK| /  ? |                                       | [  { | ]  } | LEFT | DOWN |RIGHT |
  *   `----------------------------------'                                       `----------------------------------'
  *                                        ,-------------.       ,---------------.
- *                                        |ALT+SH| HOME |       |PG UP | DELETE |
+ *                                        | HOME | END  |       |PG UP | DELETE |
  *                                 ,------|------|------|       |------+--------+------.
- *                                 |      |      | END  |       |PG DN |        |      |
+ *                                 |      |      | SHIFT|       |PG DN |        |      |
  *                                 | Space| TAB  |------|       |------|  BACK  |ENTER |
- *                                 |      |      |SH+CTL|       |INSERT| SPACE  |      |
- *                                 `--------------------'       `----------------------'Arrows+RegShift
+ *                                 |      |      | CTRL |       |INSERT| SPACE  |      |
+ *                                 `--------------------'       `----------------------'Arrows+TraditionalShift
  */
 
  [BASE] = KEYMAP(  // layer 0 : default
@@ -37,9 +37,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LSFT, KC_Z,    KC_X,   KC_C,   KC_V,   KC_B, TG(SYMB),
         KC_LCTL, KC_LGUI, KC_LALT,KC_CAPS,KC_SLSH,
                                                          
-                                                   LALT(KC_LSFT),KC_HOME,
-                                                                 KC_END,
-                                                  KC_SPC,KC_TAB, LCTL(KC_LSFT),
+                                                  KC_HOME,KC_END,
+                                                          KC_LSFT,
+                                           KC_SPC,KC_TAB, KC_LCTL,
         
 
         // right hand
